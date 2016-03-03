@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F889671C88C29C00DCA24B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F889661C88C29C00DCA24B /* AppDelegate.swift */; };
+		05F889691C88C29C00DCA24B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F889681C88C29C00DCA24B /* ViewController.swift */; };
+		05F8896C1C88C29C00DCA24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F8896A1C88C29C00DCA24B /* Main.storyboard */; };
+		05F8896E1C88C29C00DCA24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F8896D1C88C29C00DCA24B /* Assets.xcassets */; };
+		05F889711C88C29C00DCA24B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F8896F1C88C29C00DCA24B /* LaunchScreen.storyboard */; };
+		05F8897C1C88C29C00DCA24B /* yoga_health_kit_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8897B1C88C29C00DCA24B /* yoga_health_kit_appTests.swift */; };
+		05F889871C88C29C00DCA24B /* yoga_health_kit_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F889861C88C29C00DCA24B /* yoga_health_kit_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F889781C88C29C00DCA24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F8895B1C88C29C00DCA24B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F889621C88C29C00DCA24B;
+			remoteInfo = "yoga-health-kit-app";
+		};
+		05F889831C88C29C00DCA24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F8895B1C88C29C00DCA24B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F889621C88C29C00DCA24B;
+			remoteInfo = "yoga-health-kit-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F889631C88C29C00DCA24B /* yoga-health-kit-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yoga-health-kit-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F889661C88C29C00DCA24B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F889681C88C29C00DCA24B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05F8896B1C88C29C00DCA24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F8896D1C88C29C00DCA24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F889701C88C29C00DCA24B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F889721C88C29C00DCA24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F889771C88C29C00DCA24B /* yoga-health-kit-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yoga-health-kit-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F8897B1C88C29C00DCA24B /* yoga_health_kit_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoga_health_kit_appTests.swift; sourceTree = "<group>"; };
+		05F8897D1C88C29C00DCA24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F889821C88C29C00DCA24B /* yoga-health-kit-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yoga-health-kit-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F889861C88C29C00DCA24B /* yoga_health_kit_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoga_health_kit_appUITests.swift; sourceTree = "<group>"; };
+		05F889881C88C29C00DCA24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F889601C88C29C00DCA24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F889741C88C29C00DCA24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F8897F1C88C29C00DCA24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F8895A1C88C29C00DCA24B = {
+			isa = PBXGroup;
+			children = (
+				05F889651C88C29C00DCA24B /* yoga-health-kit-app */,
+				05F8897A1C88C29C00DCA24B /* yoga-health-kit-appTests */,
+				05F889851C88C29C00DCA24B /* yoga-health-kit-appUITests */,
+				05F889641C88C29C00DCA24B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F889641C88C29C00DCA24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F889631C88C29C00DCA24B /* yoga-health-kit-app.app */,
+				05F889771C88C29C00DCA24B /* yoga-health-kit-appTests.xctest */,
+				05F889821C88C29C00DCA24B /* yoga-health-kit-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F889651C88C29C00DCA24B /* yoga-health-kit-app */ = {
+			isa = PBXGroup;
+			children = (
+				05F889661C88C29C00DCA24B /* AppDelegate.swift */,
+				05F889681C88C29C00DCA24B /* ViewController.swift */,
+				05F8896A1C88C29C00DCA24B /* Main.storyboard */,
+				05F8896D1C88C29C00DCA24B /* Assets.xcassets */,
+				05F8896F1C88C29C00DCA24B /* LaunchScreen.storyboard */,
+				05F889721C88C29C00DCA24B /* Info.plist */,
+			);
+			path = "yoga-health-kit-app";
+			sourceTree = "<group>";
+		};
+		05F8897A1C88C29C00DCA24B /* yoga-health-kit-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F8897B1C88C29C00DCA24B /* yoga_health_kit_appTests.swift */,
+				05F8897D1C88C29C00DCA24B /* Info.plist */,
+			);
+			path = "yoga-health-kit-appTests";
+			sourceTree = "<group>";
+		};
+		05F889851C88C29C00DCA24B /* yoga-health-kit-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05F889861C88C29C00DCA24B /* yoga_health_kit_appUITests.swift */,
+				05F889881C88C29C00DCA24B /* Info.plist */,
+			);
+			path = "yoga-health-kit-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F889621C88C29C00DCA24B /* yoga-health-kit-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F8898B1C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-app" */;
+			buildPhases = (
+				05F8895F1C88C29C00DCA24B /* Sources */,
+				05F889601C88C29C00DCA24B /* Frameworks */,
+				05F889611C88C29C00DCA24B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yoga-health-kit-app";
+			productName = "yoga-health-kit-app";
+			productReference = 05F889631C88C29C00DCA24B /* yoga-health-kit-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F889761C88C29C00DCA24B /* yoga-health-kit-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F8898E1C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-appTests" */;
+			buildPhases = (
+				05F889731C88C29C00DCA24B /* Sources */,
+				05F889741C88C29C00DCA24B /* Frameworks */,
+				05F889751C88C29C00DCA24B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F889791C88C29C00DCA24B /* PBXTargetDependency */,
+			);
+			name = "yoga-health-kit-appTests";
+			productName = "yoga-health-kit-appTests";
+			productReference = 05F889771C88C29C00DCA24B /* yoga-health-kit-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F889811C88C29C00DCA24B /* yoga-health-kit-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F889911C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-appUITests" */;
+			buildPhases = (
+				05F8897E1C88C29C00DCA24B /* Sources */,
+				05F8897F1C88C29C00DCA24B /* Frameworks */,
+				05F889801C88C29C00DCA24B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F889841C88C29C00DCA24B /* PBXTargetDependency */,
+			);
+			name = "yoga-health-kit-appUITests";
+			productName = "yoga-health-kit-appUITests";
+			productReference = 05F889821C88C29C00DCA24B /* yoga-health-kit-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F8895B1C88C29C00DCA24B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kat Drobnjakovic";
+				TargetAttributes = {
+					05F889621C88C29C00DCA24B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					05F889761C88C29C00DCA24B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 05F889621C88C29C00DCA24B;
+					};
+					05F889811C88C29C00DCA24B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 05F889621C88C29C00DCA24B;
+					};
+				};
+			};
+			buildConfigurationList = 05F8895E1C88C29C00DCA24B /* Build configuration list for PBXProject "yoga-health-kit-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F8895A1C88C29C00DCA24B;
+			productRefGroup = 05F889641C88C29C00DCA24B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F889621C88C29C00DCA24B /* yoga-health-kit-app */,
+				05F889761C88C29C00DCA24B /* yoga-health-kit-appTests */,
+				05F889811C88C29C00DCA24B /* yoga-health-kit-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F889611C88C29C00DCA24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F889711C88C29C00DCA24B /* LaunchScreen.storyboard in Resources */,
+				05F8896E1C88C29C00DCA24B /* Assets.xcassets in Resources */,
+				05F8896C1C88C29C00DCA24B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F889751C88C29C00DCA24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F889801C88C29C00DCA24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F8895F1C88C29C00DCA24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F889691C88C29C00DCA24B /* ViewController.swift in Sources */,
+				05F889671C88C29C00DCA24B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F889731C88C29C00DCA24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8897C1C88C29C00DCA24B /* yoga_health_kit_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F8897E1C88C29C00DCA24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F889871C88C29C00DCA24B /* yoga_health_kit_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F889791C88C29C00DCA24B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F889621C88C29C00DCA24B /* yoga-health-kit-app */;
+			targetProxy = 05F889781C88C29C00DCA24B /* PBXContainerItemProxy */;
+		};
+		05F889841C88C29C00DCA24B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F889621C88C29C00DCA24B /* yoga-health-kit-app */;
+			targetProxy = 05F889831C88C29C00DCA24B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05F8896A1C88C29C00DCA24B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F8896B1C88C29C00DCA24B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F8896F1C88C29C00DCA24B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F889701C88C29C00DCA24B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F889891C88C29C00DCA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F8898A1C88C29C00DCA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F8898C1C88C29C00DCA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "yoga-health-kit-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F8898D1C88C29C00DCA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "yoga-health-kit-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F8898F1C88C29C00DCA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "yoga-health-kit-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yoga-health-kit-app.app/yoga-health-kit-app";
+			};
+			name = Debug;
+		};
+		05F889901C88C29C00DCA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "yoga-health-kit-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yoga-health-kit-app.app/yoga-health-kit-app";
+			};
+			name = Release;
+		};
+		05F889921C88C29C00DCA24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "yoga-health-kit-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "yoga-health-kit-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05F889931C88C29C00DCA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "yoga-health-kit-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kat.yoga-health-kit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "yoga-health-kit-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F8895E1C88C29C00DCA24B /* Build configuration list for PBXProject "yoga-health-kit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F889891C88C29C00DCA24B /* Debug */,
+				05F8898A1C88C29C00DCA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F8898B1C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F8898C1C88C29C00DCA24B /* Debug */,
+				05F8898D1C88C29C00DCA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F8898E1C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F8898F1C88C29C00DCA24B /* Debug */,
+				05F889901C88C29C00DCA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F889911C88C29C00DCA24B /* Build configuration list for PBXNativeTarget "yoga-health-kit-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F889921C88C29C00DCA24B /* Debug */,
+				05F889931C88C29C00DCA24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F8895B1C88C29C00DCA24B /* Project object */;
+}
