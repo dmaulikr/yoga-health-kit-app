@@ -9,43 +9,42 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, LocationChangeNotification {
     
-    let manager = CLLocationManager()
-
+    let locationDelegate = LocationDelegate()
+    
+    @IBOutlet weak var startLabel: UILabel!
+    @IBOutlet weak var endLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        locationDelegate.setup(self)
         
-        manager.delegate = self
-        manager.requestAlwaysAuthorization()
-        
-        let coordinates = CLLocationCoordinate2D(latitude: 45.4143192, longitude: -75.6973991) //pure yoga
-        //let coordinates = CLLocationCoordinate2D(latitude: 45.4199336, longitude: -75.6940381) // shop hq
-        let region = CLCircularRegion(center: coordinates, radius: 10.0, identifier: "Pure Yoga")
-        manager.startMonitoringForRegion(region)
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    internal func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        print(status.rawValue)
-    }
-        
-    func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
-        print("entered pure yoga")
-        view.backgroundColor = .greenColor()
+        updateLabels()
     }
     
-    func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
-        print("exit pure yoga")
-        view.backgroundColor = .redColor()
+    func locationDidUpdate() {
+        updateLabels()
     }
+    
+    func updateLabels() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let startTime = defaults.objectForKey("Yoga start time") as? NSDate {
+            startLabel.text = "Yoga started at \(startTime)"
+        }
+        else {
+            startLabel.text = "Dont have it"
+        }
+        
+        if let duration = defaults.objectForKey("Yoga end time") as? NSTimeInterval {
+            endLabel.text = "Yoga lasted for \(duration)"
+        }
+        else {
+            endLabel.text = "namaste"
+        }
 
+    }
 }
 

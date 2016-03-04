@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yoga-health-kit-app/ViewController.swift"
-            timestampString = "478810545.098251"
+            timestampString = "478814112.025383"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "locationManager(_:didEnterRegion:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "updateLabels()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,12 +25,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "yoga-health-kit-app/ViewController.swift"
-            timestampString = "478810546.385895"
+            filePath = "yoga-health-kit-app/LocationDelegate.swift"
+            timestampString = "478814118.450042"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "locationManager(_:didExitRegion:)"
             landmarkType = "5">
          </BreakpointContent>

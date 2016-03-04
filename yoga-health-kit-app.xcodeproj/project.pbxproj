@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050DCC0D1C8A14A200BB41C6 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DCC0C1C8A14A200BB41C6 /* LocationDelegate.swift */; };
 		05F889671C88C29C00DCA24B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F889661C88C29C00DCA24B /* AppDelegate.swift */; };
 		05F889691C88C29C00DCA24B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F889681C88C29C00DCA24B /* ViewController.swift */; };
 		05F8896C1C88C29C00DCA24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F8896A1C88C29C00DCA24B /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050DCC0C1C8A14A200BB41C6 /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 		05F889631C88C29C00DCA24B /* yoga-health-kit-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yoga-health-kit-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F889661C88C29C00DCA24B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F889681C88C29C00DCA24B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				05F8896D1C88C29C00DCA24B /* Assets.xcassets */,
 				05F8896F1C88C29C00DCA24B /* LaunchScreen.storyboard */,
 				05F889721C88C29C00DCA24B /* Info.plist */,
+				050DCC0C1C8A14A200BB41C6 /* LocationDelegate.swift */,
 			);
 			path = "yoga-health-kit-app";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F889691C88C29C00DCA24B /* ViewController.swift in Sources */,
+				050DCC0D1C8A14A200BB41C6 /* LocationDelegate.swift in Sources */,
 				05F889671C88C29C00DCA24B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

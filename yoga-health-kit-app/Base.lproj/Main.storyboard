@@ -16,11 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9d-HP-wrg">
+                                <rect key="frame" x="0.0" y="353" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jah-bb-652">
+                                <rect key="frame" x="0.0" y="172" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F9d-HP-wrg" secondAttribute="bottom" constant="226" id="1gM-ni-8lv"/>
+                            <constraint firstItem="Jah-bb-652" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="152" id="4sQ-jU-Fp2"/>
+                            <constraint firstItem="F9d-HP-wrg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cvr-bB-1IT"/>
+                            <constraint firstItem="Jah-bb-652" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vtc-Yr-W24"/>
+                            <constraint firstItem="Jah-bb-652" firstAttribute="trailing" secondItem="F9d-HP-wrg" secondAttribute="trailing" id="a2Y-r4-Pjf"/>
+                            <constraint firstItem="Jah-bb-652" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b8q-2y-xOc"/>
+                            <constraint firstItem="Jah-bb-652" firstAttribute="leading" secondItem="F9d-HP-wrg" secondAttribute="leading" id="fn2-mS-4DB"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="endLabel" destination="F9d-HP-wrg" id="alL-ad-x9c"/>
+                        <outlet property="startLabel" destination="Jah-bb-652" id="4rz-50-ac8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="417"/>
         </scene>
     </scenes>
 </document>
