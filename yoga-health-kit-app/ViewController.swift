@@ -21,8 +21,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         manager.delegate = self
         manager.requestAlwaysAuthorization()
         
-        let coordinates = CLLocationCoordinate2D(latitude: 45.4143192, longitude: -75.6973991)
-        let region = CLCircularRegion(center: coordinates, radius: 20.0, identifier: "Pure Yoga")
+        let coordinates = CLLocationCoordinate2D(latitude: 45.4143192, longitude: -75.6973991) //pure yoga
+        //let coordinates = CLLocationCoordinate2D(latitude: 45.4199336, longitude: -75.6940381) // shop hq
+        let region = CLCircularRegion(center: coordinates, radius: 10.0, identifier: "Pure Yoga")
         manager.startMonitoringForRegion(region)
 
     }
@@ -33,15 +34,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
 
     internal func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        print(status)
+        print(status.rawValue)
     }
         
     func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
         print("entered pure yoga")
+        view.backgroundColor = .greenColor()
     }
     
     func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
         print("exit pure yoga")
+        view.backgroundColor = .redColor()
     }
 
 }
